@@ -48,8 +48,15 @@ export const Banner = () =>{
                 <Col xs={12} md={6} xl={7}>
                     <span className="tagline">Bienvenido a mi portafolio</span>
                     <h1>{`hola soy un desarrollador `}<span className="wrap">{text}</span></h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
-                    <button onClick={()=> console.log('connect')}>Contactame<ArrowRightCircle size={25}/></button>
+                    <p>Estudiante de 4º semestre de la carrera de
+                        Desarrollo de Software, con conocimientos
+                        básicos en desarrollo de software,
+                        diseñador de sitios web, entre otros.
+                        Interesado en laborar en una empresa para
+                        expandir mis conocimientos en el área Front
+                        End/Back End Developer.
+                        </p>
+                    <button onClick={()=> console.log('connect')}>TELF : 971512094<ArrowRightCircle size={25}/></button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                 <img src={headerImg} alt="Headder Img"/>

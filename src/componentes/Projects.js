@@ -13,21 +13,25 @@ export const Projects = () => {
       title: "Mi primer CRUD(JAVAWEB)",
       description: "Diseño y desarrollo",
       imgUrl: projImg1,
+      linkUrl: "https://www.example.com/link1"
     },
     {
       title: "Mi primer juego con Phaser",
       description: "Diseño y dearrollo",
       imgUrl: projImg2,
+      linkUrl: "https://www.example.com/link1"
     },
     {
       title: "Juego de memoria",
       description: "Diseño y desarrollo",
       imgUrl: projImg3,
+      linkUrl: "https://fernando-lysoft.github.io/JUEGO-DE-MEMORIA/"
     },
     {
       title: "Mi primer BLOG",
       description: "Diseño y Desarrollo",
       imgUrl: projImg4,
+      linkUrl: "https://fernando-lysoft.github.io/BLOG2.0/"
     },
     /*{
       title: "Business Startup",

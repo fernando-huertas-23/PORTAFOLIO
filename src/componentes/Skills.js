@@ -36,7 +36,7 @@ export const Skills  = () =>{
                     <h2>
                       Skills
                     </h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                    <p>Estas son las habilidades que adquiri durante mis estudios en SENATI y mediante las prácticas empresariales</p>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className="item">
                             <img src={meter1} alt="Image" />
