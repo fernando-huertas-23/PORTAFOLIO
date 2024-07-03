@@ -2,7 +2,7 @@
   "name": "portafolio-fernando",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://github.com/fernando-huertas-23/PORTAFOLIO",
+  "homepage":"https://fernando-huertas-23.github.io/PORTAFOLIO/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
