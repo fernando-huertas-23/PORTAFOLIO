@@ -5,6 +5,7 @@ import projImg1 from "../materiales/img/proyecto-1.png";
 import projImg2 from "../materiales/img/proyecto-2.png";
 import projImg3 from "../materiales/img/proyecto-3.png";
 import projImg4 from "../materiales/img/proyecto-4.png";
+import projImg5 from "../materiales/img/proyecto-5.png";
 
 export const Projects = () => {
 
@@ -33,12 +34,12 @@ export const Projects = () => {
       imgUrl: projImg4,
       linkUrl: "https://fernando-lysoft.github.io/BLOG2.0/"
     },
-    /*{
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
     {
+      title: "Sistema de ventas",
+      description: "Diseño y desarrollo",
+      imgUrl: projImg5,
+    },
+    /*{
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
@@ -50,36 +51,53 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
-          <h2>Projects</h2>
-          <p>loremp iosum sdjndjon</p>
+          <h2>Projectos</h2>
+          <p>Mis primeros proyectos</p>
           <Tab.Container id="projects-tabs" defaultActiveKey="first">
           <Nav variant="pills" defaultActiveKey="/home">
           <Nav.Item>
-            <Nav.Link eventKey="first"> Tabla 1</Nav.Link>
+            <Nav.Link eventKey="first">Web</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="second">Tabla 2</Nav.Link>
+            <Nav.Link eventKey="second">Juegos</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="third">Tabla 3</Nav.Link>
+            <Nav.Link eventKey="third">Movil</Nav.Link>
           </Nav.Item>
           </Nav>
           <Tab.Content>
-            <Tab.Pane eventKey="first"> Mis primeros proyectos
+            <Tab.Pane eventKey="first">
               <Row>
                 {
-                  projects.map((project, index) => {
-                    return(
-                      <ProjectCard
-                      key={index}
-                      {...project}
-                      />
-                    )
-                  })
+                    projects
+                    .filter((project) => project.title === "Mi primer BLOG" || project.title === "Mi primer CRUD(JAVAWEB)" || project.title === "Sistema de ventas" )
+                    .map((project, index) => {
+                      return (
+                        <ProjectCard
+                          key={index}
+                          {...project}
+                        />
+                      );
+                    })
                 }
               </Row>
             </Tab.Pane>
-            <Tab.Pane eventKey="second">Loren ipsum</Tab.Pane>
+            <Tab.Pane eventKey="second">
+            <Row>
+            {
+              projects
+                .filter((project) => project.title === "Mi primer juego con Phaser" || project.title === "Juego de memoria")
+                .map((project, index) => {
+                  return (
+                    <ProjectCard
+                      key={index}
+                      {...project}
+                    />
+                  );
+                })
+            }
+              </Row>
+            </Tab.Pane>
             <Tab.Pane eventKey="third">Lorem ipsum</Tab.Pane>
           </Tab.Content>
           </Tab.Container>
