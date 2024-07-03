@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/fernando-huertas-23/PORTAFOLIO/static/css/main.f4ddbbb1.css",
+    "main.js": "/fernando-huertas-23/PORTAFOLIO/static/js/main.90774297.js",
+    "static/js/453.d8166049.chunk.js": "/fernando-huertas-23/PORTAFOLIO/static/js/453.d8166049.chunk.js",
+    "static/media/proyecto-4.png": "/fernando-huertas-23/PORTAFOLIO/static/media/proyecto-4.b136240dedd76b04ed50.png",
+    "static/media/color-sharp.png": "/fernando-huertas-23/PORTAFOLIO/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/fernando-huertas-23/PORTAFOLIO/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/nav-icon1.png": "/fernando-huertas-23/PORTAFOLIO/static/media/nav-icon1.44a8753da4a9bab05eb5.png",
+    "static/media/proyecto-3.png": "/fernando-huertas-23/PORTAFOLIO/static/media/proyecto-3.300ac430d8dd4d59ae23.png",
+    "static/media/logo.png": "/fernando-huertas-23/PORTAFOLIO/static/media/logo.551ff58224437e862ae3.png",
+    "static/media/saludo.png": "/fernando-huertas-23/PORTAFOLIO/static/media/saludo.4c973469b64119e73599.png",
+    "static/media/CentraNo2-Bold.ttf": "/fernando-huertas-23/PORTAFOLIO/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/fernando-huertas-23/PORTAFOLIO/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/fernando-huertas-23/PORTAFOLIO/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/fernando-huertas-23/PORTAFOLIO/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/proyecto-1.png": "/fernando-huertas-23/PORTAFOLIO/static/media/proyecto-1.bbbc1606ce4db4d1bd7f.png",
+    "static/media/proyecto-5.png": "/fernando-huertas-23/PORTAFOLIO/static/media/proyecto-5.ba94180488c4d19b1937.png",
+    "static/media/banner.jpg": "/fernando-huertas-23/PORTAFOLIO/static/media/banner.e8ebb1f63d44e1f56361.jpg",
+    "static/media/meter1.png": "/fernando-huertas-23/PORTAFOLIO/static/media/meter1.08bfe78f1ed5f5d184c0.png",
+    "static/media/meter4.png": "/fernando-huertas-23/PORTAFOLIO/static/media/meter4.d7af117413bbe6f063e7.png",
+    "static/media/meter5.png": "/fernando-huertas-23/PORTAFOLIO/static/media/meter5.9ffd6ab8e957d2edb9c5.png",
+    "static/media/contact-img.svg": "/fernando-huertas-23/PORTAFOLIO/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/proyecto-2.png": "/fernando-huertas-23/PORTAFOLIO/static/media/proyecto-2.02324e2273a0134c56a4.png",
+    "static/media/revicons.eot": "/fernando-huertas-23/PORTAFOLIO/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/fernando-huertas-23/PORTAFOLIO/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/fernando-huertas-23/PORTAFOLIO/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/fernando-huertas-23/PORTAFOLIO/index.html",
+    "main.f4ddbbb1.css.map": "/fernando-huertas-23/PORTAFOLIO/static/css/main.f4ddbbb1.css.map",
+    "main.90774297.js.map": "/fernando-huertas-23/PORTAFOLIO/static/js/main.90774297.js.map",
+    "453.d8166049.chunk.js.map": "/fernando-huertas-23/PORTAFOLIO/static/js/453.d8166049.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4ddbbb1.css",
+    "static/js/main.90774297.js"
+  ]
+}
