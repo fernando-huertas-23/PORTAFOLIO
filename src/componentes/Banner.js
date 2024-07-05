@@ -56,7 +56,7 @@ export const Banner = () =>{
                         expandir mis conocimientos en el área Front
                         End/Back End Developer.
                         </p>
-                    <button onClick={()=> console.log('connect')}>TELF : 971512094<ArrowRightCircle size={25}/></button>
+                   
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                 <img src={headerImg} alt="Headder Img"/>

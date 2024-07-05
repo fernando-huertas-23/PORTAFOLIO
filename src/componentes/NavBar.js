@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import {Navbar, Container, Nav} from 'react-bootstrap';
 import logo from '../materiales/img/logo.png';
-import navIcon1 from '../materiales/img/nav-icon1.png';
 import navIcon2 from '../materiales/img/nav-icon2.png';
 import navIcon3 from '../materiales/img/nav-icon3.png';
 
@@ -50,8 +49,8 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/jos%C3%A9-fernando-huertas-supa-2a69b3300/"><img src={navIcon3} alt="" /></a>
               </div>
              
-              <button className="vvd">
-  <a href="#connect" style={{ color: '#fff',fontWeight: 700, textDecoration: 'none' }}>Contactame</a>
+              <button className="vvd" onClick={() => window.location.href = '#connect'}>
+  Contactame
 </button>
              
             </span>

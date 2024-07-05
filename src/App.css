@@ -151,6 +151,8 @@ span.navbar-text {
 }
 
 .navbar-text button {
+  color: #fff;
+  font-weight: 700;
   border: 1px solid #b4b0b0;
   padding: 18px 34px;
   font-size: 18px;
@@ -210,7 +212,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 200px 0 100px 0;
-  background-image: url('./materiales/img/banner.jpg');
+  background-image: url('./materiales/img/banner1.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -390,6 +392,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0 55px 55px 0;
 }
 .proj-imgbx {
+  margin-top: 30px;
   position: relative;
   border-radius: 30px;
   overflow: hidden;
