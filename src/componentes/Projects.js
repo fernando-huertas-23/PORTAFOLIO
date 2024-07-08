@@ -1,21 +1,17 @@
 import {Col, Container, Tab, Row, Nav} from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../materiales/img/color-sharp2.png";
-import projImg1 from "../materiales/img/proyecto-1.png";
+//import projImg1 from "../materiales/img/proyecto-1.png";
 import projImg2 from "../materiales/img/proyecto-2.png";
 import projImg3 from "../materiales/img/proyecto-3.png";
 import projImg4 from "../materiales/img/proyecto-4.png";
 import projImg5 from "../materiales/img/proyecto-5.png";
+import appnotas from '../materiales/img/appnotas.jpg';
 
 export const Projects = () => {
 
   const projects = [
-    {
-      title: "Mi primer CRUD(JAVAWEB)",
-      description: "Diseño y desarrollo",
-      imgUrl: projImg1,
-      linkUrl: "https://www.example.com/link1"
-    },
+  
     {
       title: "Mi primer juego con Phaser",
       description: "Diseño y dearrollo",
@@ -26,24 +22,24 @@ export const Projects = () => {
       title: "Juego de memoria",
       description: "Diseño y desarrollo",
       imgUrl: projImg3,
-      linkUrl: "https://fernando-lysoft.github.io/JUEGO-DE-MEMORIA/"
+      linkUrl: "https://fernando-huertas-23.github.io/JUEGO-DE-MEMORIA/"
     },
     {
       title: "Mi primer BLOG",
       description: "Diseño y Desarrollo",
       imgUrl: projImg4,
-      linkUrl: "https://fernando-lysoft.github.io/BLOG2.0/"
+      linkUrl: "https://fernando-huertas-23.github.io/BLOG2.0/"
     },
     {
       title: "Sistema de ventas",
       description: "Diseño y desarrollo",
       imgUrl: projImg5,
     },
-    /*{
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },*/
+    {
+      title: "APP Notas",
+      description: "Diseño y desarrollo",
+      imgUrl: appnotas,
+    },
   ];
   
   return(
@@ -70,7 +66,7 @@ export const Projects = () => {
               <Row>
                 {
                     projects
-                    .filter((project) => project.title === "Mi primer BLOG" || project.title === "Mi primer CRUD(JAVAWEB)" || project.title === "Sistema de ventas" )
+                    .filter((project) => project.title === "Mi primer BLOG" || project.title === "Sistema de ventas" )
                     .map((project, index) => {
                       return (
                         <ProjectCard
@@ -86,10 +82,10 @@ export const Projects = () => {
             <Row>
             {
               projects
-                .filter((project) => project.title === "Mi primer juego con Phaser" || project.title === "Juego de memoria")
+                .filter((project) =>  project.title === "Mi primer juego con Phaser" || project.title === "Juego de memoria")
                 .map((project, index) => {
                   return (
-                    <ProjectCard
+                    <ProjectCard id="movil"
                       key={index}
                       {...project}
                     />
@@ -98,7 +94,22 @@ export const Projects = () => {
             }
               </Row>
             </Tab.Pane>
-            <Tab.Pane eventKey="third">Lorem ipsum</Tab.Pane>
+            <Tab.Pane eventKey="third" >
+            <Row >
+            {
+              projects
+                .filter((project) => project.title === "APP Notas")
+                .map((project, index) => {
+                  return (
+                    <ProjectCard  
+                      key={index}
+                      {...project}
+                    />
+                  );
+                })
+            }
+              </Row>
+            </Tab.Pane>
           </Tab.Content>
           </Tab.Container>
           </Col>
