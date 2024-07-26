@@ -7,7 +7,7 @@ export const Banner = () =>{
 
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = ["Web Developer", "Web Designer", "Backend Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -47,8 +47,8 @@ export const Banner = () =>{
                 <Row className="align-items-center">
                 <Col xs={12} md={6} xl={7}>
                     <span className="tagline">Bienvenido a mi portafolio</span>
-                    <h1>{`hola soy un desarrollador `}<span className="wrap">{text}</span></h1>
-                    <p>Estudiante de 4º semestre de la carrera de
+                    <h1>{`Hola soy desarrollador `}<span className="wrap">{text}</span></h1>
+                    <p>Estudiante de 5º ciclo de la carrera de
                         Desarrollo de Software, con conocimientos
                         básicos en desarrollo de software,
                         diseñador de sitios web, entre otros.

@@ -16,7 +16,7 @@ export const Projects = () => {
       title: "Mi primer juego con Phaser",
       description: "Diseño y dearrollo",
       imgUrl: projImg2,
-      linkUrl: "https://www.example.com/link1"
+      linkUrl: "https://github.com/fernando-huertas-23/MI-PRIMER-JUEGO"
     },
     {
       title: "Juego de memoria",
@@ -33,12 +33,14 @@ export const Projects = () => {
     {
       title: "Sistema de ventas",
       description: "Diseño y desarrollo",
+      linkUrl:"https://github.com/fernando-huertas-23/APISistemaVenta-Back-End",
       imgUrl: projImg5,
     },
     {
       title: "APP Notas",
       description: "Diseño y desarrollo",
       imgUrl: appnotas,
+      linkUrl: "https://github.com/fernando-huertas-23/App-Notas"
     },
   ];
   
@@ -85,7 +87,7 @@ export const Projects = () => {
                 .filter((project) =>  project.title === "Mi primer juego con Phaser" || project.title === "Juego de memoria")
                 .map((project, index) => {
                   return (
-                    <ProjectCard id="movil"
+                    <ProjectCard 
                       key={index}
                       {...project}
                     />

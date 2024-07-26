@@ -93,6 +93,10 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
+[href="/"] img {
+  width: 150px; /* aumenta el ancho del logo a 50px */
+  height: 80px; /* aumenta el alto del logo a 50px */
+}
 nav.navbar a.navbar-brand {
     width: 9%;
 }
@@ -208,6 +212,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+@media (max-width: 760px) {
+  nav.navbar #basic-navbar-nav {
+    background-color: rgba(12, 4, 12, 0.5);
+    padding: 10px;
+  }
+}
+@media(max-width:820px) {
+  [href="/"] img {
+    width: 70px; /* aumenta el ancho del logo a 50px */
+    height: 40px; /* aumenta el alto del logo a 50px */
+  }
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -235,6 +252,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 20px;
   display: block;
 }
+@media (max-width: 768px) { 
+  .banner {
+    padding-top: 100px; 
+  }
+  .banner h1 {
+     font-size: 50px; 
+   }
+ }
 .banner p {
   color: #B8B8B8;
   font-size: 18px;
@@ -242,24 +267,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   width: 96%;
 }
-.banner button {
-  color: #fff;
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 60px;
-  letter-spacing: 0.8px;
-  display: flex;
-  align-items: center;
-}
-.banner button svg {
-  font-size: 25px;
-  margin-left: 10px;
-  transition: 0.3s ease-in-out;
-  line-height: 1;
-}
-.banner button:hover svg {
-  margin-left: 25px;
-}
+
 .banner img {
   animation: updown 3s linear infinite;
 }
@@ -397,6 +405,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 
 .proj-imgbx::before {
@@ -517,6 +526,54 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
+}
+
+.success-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 40px; 
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+  font-size: 24px; 
+  color: #000; 
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.success-message.show {
+  opacity: 0.9;
+}
+
+.success-message::before {
+  content: '✔';
+  color: #ffffff;
+  padding-top: 8px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #50ad4d;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.success-message::before::after {
+  content: '✔';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.contact {
+  position: relative;
 }
 
 /************ Footer Css ************/

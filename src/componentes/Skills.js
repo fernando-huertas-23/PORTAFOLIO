@@ -1,6 +1,8 @@
 import { Container, Col, Row} from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import meterc from '../materiales/img/c.png';
+import meter0 from '../materiales/img/nodejs.png';
 import meter1 from '../materiales/img/HTML-CSS.png';
 import meter2 from '../materiales/img/js.webp';
 import meter3 from '../materiales/img/imgreact.png';
@@ -44,36 +46,44 @@ export const Skills  = () =>{
                     <p>Estas son las habilidades que adquiri durante mis estudios en SENATI y mediante las prácticas empresariales</p>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className="item">
-                            <img src={meter1} alt="Image" />
-                            <h5>HTML - CSS</h5>
+                            <img src={meter0} alt=""/>
+                            <h5>Node.JS</h5>
                         </div>
+                       
                         <div className="item">
-                            <img src={meter2} alt="Image" />
+                            <img src={meter2} alt="" />
                             <h5>Javascript</h5>
                         </div>
                         <div className="item">
-                            <img src={meter3} alt="Image" />
+                            <img src={meter3} alt="" />
                             <h5>React</h5>
                         </div>
                         <div className="item">
-                            <img src={meter8} alt="Image" />
+                            <img src={meter8} alt="" />
                             <h5>Angular</h5>
                         </div>
                         <div className="item">
-                            <img src={meter4} alt="Image" />
-                            <h5>Wordpress</h5>
-                        </div>
-            
+                            <img src={meterc} alt=""/>
+                            <h5>C#</h5>
+                        </div>  
                         <div className="item">
-                            <img src={meter5} alt="Image" />
+                            <img src={meter4} alt="" />
+                            <h5>Wordpress</h5>
+                        </div>                           
+                        <div className="item">
+                            <img src={meter5} alt="" />
                             <h5>Java</h5>
                         </div>
                         <div className="item">
-                            <img src={meter6} alt="Image" />
+                            <img src={meter6} alt="" />
                             <h5>Python</h5>
                         </div>
                         <div className="item">
-                            <img src={meter7} alt="Image" />
+                            <img src={meter1} alt=""/>
+                            <h5>HTML - CSS</h5>
+                        </div>
+                        <div className="item">
+                            <img src={meter7} alt="" />
                             <h5>SQL</h5>
                         </div>
                     </Carousel>
@@ -81,7 +91,7 @@ export const Skills  = () =>{
                  </Col>
               </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} />
+            <img className="background-image-left" src={colorSharp} alt="" />
         </section>
     )
 }

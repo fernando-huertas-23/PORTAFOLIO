@@ -45,13 +45,13 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://github.com/fernando-lysoft?tab=repositories"><img src={navIcon2} alt="" /></a>
+                <a href="https://github.com/fernando-huertas-23?tab=repositories"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.linkedin.com/in/jos%C3%A9-fernando-huertas-supa-2a69b3300/"><img src={navIcon3} alt="" /></a>
               </div>
              
               <button className="vvd" onClick={() => window.location.href = '#connect'}>
-  Contactame
-</button>
+                Contactame
+              </button>
              
             </span>
           </Navbar.Collapse>
